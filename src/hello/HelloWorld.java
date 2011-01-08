@@ -1,5 +1,10 @@
 package hello;
 
 public class HelloWorld {
-	public HelloWorld() {}
+	
+	String msg;
+	
+	public HelloWorld() {
+		msg = "Hello, world!";
+	}
 }
